@@ -1,0 +1,36 @@
+{
+  "name": "jd",
+  "version": "1.0.0",
+  "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+  "main": "AlipayManor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "JD"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.3.0",
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "date-fns": "^2.22.1",
+    "dotenv": "^10.0.0",
+    "download": "^8.0.0",
+    "got": "^11.5.1",
+    "http-server": "^0.12.3",
+    "png-js": "^1.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "tough-cookie": "^4.0.0",
+    "ts-md5": "^1.2.9",
+    "tslib": "^2.3.0",
+    "tunnel": "0.0.6",
+    "ws": "^7.4.3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "LXK9301.app.sub2",
+  "name": "自用",
+  "author": "@LXK9301",
+  "icon": "https://avatars0.githubusercontent.com/u/21308593?s=52&v=4",
+  "repo": "https://github.com/LXK9301/jd_scripts/",
+  "apps": [
+    {
+      "id": "QQ_READ",
+      "name": "企鹅阅读(QQ小程序)",
+      "keys": [
+        "qqreadbodyVal",
+        "qqreadtimeurl",
+        "qqreadtimehd"
+      ],
+      "settings": [],
+      "author": "@ziye12",
+      "repo": "https://github.com/ziye12/JavaScript ",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"
+      ]
+    }
+  ]
+}

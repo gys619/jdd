@@ -1,0 +1,219 @@
+{
+  "id": "com.passerby-b",
+  "name": "passerby-b脚本订阅",
+  "author": "@passerby-b",
+  "icon": "https://portrait.gitee.com/uploads/avatars/user/2721/8163312_passerby-b_1605061011.png",
+  "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+  "apps": [
+    {
+      "id": "jddj_fruit",
+      "name": "京东到家果园任务",
+      "keys": [
+        "jddj_cookies"
+      ],
+      "descs_html": [
+        "多个用英文逗号(,)分开"
+      ],
+      "settings": [
+        {
+          "id": "jddj_cookies",
+          "name": "CK列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 列表 "
+        }
+      ],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js"
+    },
+    {
+      "id": "jddj_bean",
+      "name": "京东到家鲜豆任务",
+      "keys": [
+        "jddj_cookies"
+      ],
+      "descs_html": [
+        "多个用逗号分开"
+      ],
+      "settings": [
+        {
+          "id": "jddj_cookies",
+          "name": "CK列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 列表 "
+        }
+      ],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js"
+    },
+    {
+      "id": "jddj_plantBeans",
+      "name": "京东到家鲜豆庄园",
+      "keys": [
+        "jddj_cookies"
+      ],
+      "descs_html": [
+        "多个用逗号分开"
+      ],
+      "settings": [
+        {
+          "id": "jddj_cookies",
+          "name": "CK列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 列表 "
+        }
+      ],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js"
+    },
+    {
+      "id": "jddj_getPoints",
+      "name": "京东到家鲜豆庄园收水滴",
+      "keys": [
+        "jddj_cookies"
+      ],
+      "descs_html": [
+        "多个用逗号分开"
+      ],
+      "settings": [
+        {
+          "id": "jddj_cookies",
+          "name": "CK列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 列表 "
+        }
+      ],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js"
+    },
+    {
+      "id": "jddj_fruit_collectWater",
+      "name": "京东到家果园水车自动收水滴",
+      "keys": [
+        "jddj_cookies"
+      ],
+      "descs_html": [
+        "多个用逗号分开"
+      ],
+      "settings": [
+        {
+          "id": "jddj_cookies",
+          "name": "CK列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 列表 "
+        }
+      ],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/jddj.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js"
+    },
+    {
+      "id": "dyjs",
+      "name": "抖音极速版刷音符",
+      "keys": ["dyheadlist"],
+      "descs_html": [],
+      "settings": [],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/dyjsb.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/dyjsb.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://gitee.com/passerby-b/javascript/raw/master/dyjs.js"
+    },
+    {
+      "id": "didi_fruit",
+      "name": "滴滴橙心果园",
+      "keys": [
+        "ddtoken"
+      ],
+      "descs_html": [
+        "填写token,多账号用英文逗号(,)分开"
+      ],
+      "settings": [
+        {
+          "id": "ddtoken",
+          "name": "token",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "token"
+        }
+      ],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/didi.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/didi.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js"
+    },
+    {
+      "id": "ks_fruit",
+      "name": "快手果园",
+      "keys": [
+        "kscookies"
+      ],
+      "descs_html": [
+        "填写cookie,多账号用英文逗号(,)分开"
+      ],
+      "settings": [
+        {
+          "id": "kscookies",
+          "name": "kscookies",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "kscookies"
+        }
+      ],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/ks.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/ks.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://raw.githubusercontent.com/passerby-b/ks_fruit/main/ks_fruit.js"
+    }
+  ]
+}

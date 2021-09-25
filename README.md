@@ -1,10 +1,10 @@
 # 说明
- * 个人研究学习自用
+ * 个人研究学习自用，此仓库两小时同步一次
  * 合集加的最后结尾大佬们脚本,没改互助码
 # 海压竹枝低复举，风吹山角晦还明。
 ## 青龙拉取链接
 ``` 
-ql repo https://github.com/gys619/jdd.git "jd_|jx_|jddj_|gua_|jddj_|getJDCookie|wskey" "activity|backUp|scf_test_event" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_Pure|sign_graphics_validate|jddj_cookie|function|sign"
+ql repo https://github.com/gys619/jdd.git "jd_|jx_|jddj_|gua_|jddj_|getJDCookie|wskey" "activity|backUp|scf_test_event" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_Pure|sign_graphics_validate|jddj_cookie|function"
 ```
 ```
 推荐定时 0 */4 * * *
@@ -14,7 +14,11 @@ ql repo https://github.com/gys619/jdd.git "jd_|jx_|jddj_|gua_|jddj_|getJDCookie|
 <details>
 <summary>查看</summary>
 
-* 取消he1pu大佬的强制更新脚本，会自己加他的脚本！
+* 把[airacg](https://github.com/airacg/jd_task.git)大佬脚本加了定时，可以让青龙识别
+* 去掉jd_ks_fruit.js快手果园
+* 修复了repo链接拉不到仓库的问题
+* ~~取消he1pu大佬的强制更新脚本，会自己加他的脚本！~~
+* ，把he1pu大佬的强制更新脚本借鉴了一下！
 * 注意修改[airacg](https://github.com/airacg/jd_task.git)大佬的任务定时
 * 加了[Oreomeow大佬](https://raw.githubusercontent.com/Oreomeow/VIP/main/Conf/Qinglong/config.sample.sh)的config模板
 * 财富岛新手任务
@@ -36,7 +40,7 @@ ql repo https://github.com/gys619/jdd.git "jd_|jx_|jddj_|gua_|jddj_|getJDCookie|
 <summary>查看依赖列表</summary>
  安装青龙的一些依赖，按需求安装
 
-* docker exec -it qinglong bash -c "npm install -g typescript"
+* docker exec -it qinglong(自己容器名) bash -c "npm install -g typescript"
 
 * docker exec -it qinglong bash -c "npm install axios date-fns"
 

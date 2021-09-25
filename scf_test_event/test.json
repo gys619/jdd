@@ -1,0 +1,11 @@
+//适配新版云函数在线ide,右上角选择运行模板即可,按需要更改Message参数
+{
+  "value": "test",
+  "text": "Timer 定时触发器事件模板",
+  "context": {
+    "Type": "Timer",
+    "TriggerName": "EveryDay",
+    "Time": "2019-02-21T11:49:00Z",
+    "Message": "jddj_fruit_collectWater"
+  }
+}

@@ -1,0 +1,9 @@
+58 7,15,23 * * * /usr/bin/node /root/jd/scripts/jd_work_validate.js
+0 0,8,16 * * * /usr/bin/node /root/jd/scripts/jd_exchange_joy.js
+30 7,15,23 * * * /usr/bin/node /root/jd/scripts/jd_work_invokeKey.js
+22 8,23 * * * /usr/bin/node /root/jd/scripts/jd_work_price.js
+0 0 * * * /usr/bin/node /root/jd/scripts/jx_aid_factory.js
+0 0 * * * /usr/bin/node /root/jd/scripts/jx_aid_fortune.js
+24 */4 * * * /usr/bin/node /root/jd/scripts/jr_work_pigPet.js
+*/20 0,6-23 * * * /usr/bin/node /root/jd/scripts/jx_work_fortune.js
+2 0,6-22/3 * * * /usr/bin/node /root/jd/scripts/jd_work_cookie.js
